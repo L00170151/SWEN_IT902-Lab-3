@@ -16,7 +16,7 @@ class Lotto:
             return "Failed"
         else:
             names_wk1 = ["Joe", "John", "Jane", "Mick", "Mary", "Ann", "Rick", "John", "Aine", "Brenda"]
-            names_wk2 = ["Jack", "Mary", "Phil", "John", "Pat", "Joe", "Luke", "Bill", "Ben", "Nathan"]
+            names_wk2 = ["Jack", "Sean", "Phil", "John", "Pat", "Joe", "Luke", "Bill", "Ben", "Nathan"]
 
             numbers_wk1 = random.sample(range(1, highest), 10)
             numbers_wk2 = random.sample(range(1, highest), 10)
