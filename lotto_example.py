@@ -9,10 +9,10 @@ import random
 
 
 class Lotto:
-    def lotto(self, highest):
+    def run_lotto(self, highest):
         # create the lists of names
         if highest <= 10:
-            print("Should return false" + str(highest))
+            print(str(highest) + " is not a high enough number")
             return "Failed"
         else:
             names_wk1 = ["Joe", "John", "Jane", "Mick", "Mary", "Ann", "Rick", "John", "Aine", "Brenda"]
@@ -35,4 +35,4 @@ class Lotto:
 
 
 x = Lotto
-x.lotto(Lotto, 11)
+x.run_lotto(Lotto, 111)
